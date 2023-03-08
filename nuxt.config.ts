@@ -5,5 +5,7 @@ export default defineNuxtConfig({
   components: true,
   modules: [
     "@nuxtjs/tailwindcss",
-  ]
+    //'@nuxt/image',
+  ],
+
 })

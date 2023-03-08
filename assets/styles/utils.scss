@@ -2,8 +2,40 @@
 
 
 $subtle-color: hsla(0, 0%, 51%, 1);
+$color-white: #ffffff;
+$dark-black: #25262A;
+$darker-black: #28292D;
+$dark-black-background: #2D2E32;
+$color-yellow: rgb(245, 229, 7);
+$box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+$main-header-height: 4.5rem;
+
+
+
+$dark-bg:#070E23;
 
 @function pxToRem($px) {
   @return math.div($px, 16) + rem;
 }
 
+
+.cld-semibold{
+  font-family: "ClashDisplay-Semibold", sans-serif;
+}
+.cld-regular{
+  font-family: 'ClashDisplay-Regular',sans-serif;
+}
+.cld-light{
+  font-family: 'ClashDisplay-Light',sans-serif;
+}
+.cld-extralight{
+  font-family: 'ClashDisplay-Extralight',sans-serif;
+}
+
+.cld-variable{
+  font-family: 'ClashDisplay-Variable',sans-serif;
+}
+
+.m-regular{
+  font-family: "Montserrat",sans-serif;
+}

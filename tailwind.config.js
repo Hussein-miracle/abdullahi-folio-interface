@@ -13,7 +13,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        darkbg:'#070E23'
+        darkbg:'#070E23',
+        darkbg2:'#06102B',
       }
     },
   },

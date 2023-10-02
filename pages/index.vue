@@ -1,9 +1,57 @@
 <script setup>
 import {projects} from "@/data";
+
+useHead({
+  title: 'Abdullahi Hussein - Portfolio',
+  meta: [
+    { name: 'description', content: 'Software Engineer skilled in React,Vue,Typescript, css, sass,Nodejs/Express, git,etc.' },
+    { name: 'description', content: "Abdullahi's portfolio" },
+    { name: 'description', content: "Software Developer based in Lagos, Nigeria focused on creating expressive and interactive experiences on the web" },
+    {
+      property:'og:title',
+      content:"Abdullahi.ts✨🚀 - Creative,Innovative Frontend Developer"
+    },
+    {
+      property:'og:description',
+      content:"Software Engineer | Frontend Developer  based in Osun, Nigeria focused on creating expressive and interactive experiences on the web"
+    },
+    {
+      property:'og:image',
+      content:"https://i.ibb.co/m6VB3dh/a7.png"
+    },
+
+    // twitter
+
+    {
+      name:"twitter:card",
+      content:"summary_large_image"
+    },
+    {
+      property:"twitter:domain",
+      content:"https://dev-abdullahi.vercel.app"
+    },
+    {
+      property:"twitter:description",
+      content:"Software Engineer | Frontend Developer  based in Lagos, Nigeria focused on creating expressive and interactive experiences on the web and mobile"
+    }
+  ],
+  link:[
+    {
+      rel:"shortcut icon",
+      href:'/favicon.ico',
+      type:"image/x-icon"
+    },
+    {
+      rel:"apple-touch-icon",
+      href:'/favicon.ico',
+    },
+  ]
+})
+
+
 const changeHeaderBg = ref(false);
 const showMobileMenu = ref(false);
 const scrollRef = ref(10);
-// const navItemHovered =
 
 
 const handleCloseMenu = () => {

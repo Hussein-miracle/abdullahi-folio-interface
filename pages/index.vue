@@ -477,7 +477,7 @@ onUnmounted(() => {
   &::after {
     // width: 100%;
     // height: 100%;
-    opacity: 0;
+    // opacity: 0;
     content: "";
     position: absolute;
     inset: -0.15rem;
@@ -515,12 +515,14 @@ onUnmounted(() => {
     background-blend-mode: screen;
 
     animation: rotation 15s linear infinite;
+    animation-play-state:paused;
   }
 
   &:hover::after,
   &:hover::before {
     // filter: blur(1.5rem);
-    opacity: 1;
+    // opacity: 1;
+    animation-play-state:running;
   }
 }
 

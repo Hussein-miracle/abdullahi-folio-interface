@@ -62,7 +62,7 @@ export const projects = [
   new ProjectItem(
     "HIPz-FITz",
     "An e-commerce web app for male and female clothings with paystack integrated.",
-    ["Reactjs", "Redux", "Scss", "Paystack"],
+    ["Reactjs", "Redux", "Scss", "Paystack SDK"],
     "https://github.com/Hussein-miracle/hipz-fitz",
     "https://hipz-fitz.netlify.app/"
   ),
